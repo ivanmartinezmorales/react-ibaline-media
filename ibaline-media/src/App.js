@@ -17,7 +17,7 @@ class App extends Component {
   render() {
     return (
       <div className="py-0">
-        <Contact />
+        <Testimonials />
       </div>
     );
   }
