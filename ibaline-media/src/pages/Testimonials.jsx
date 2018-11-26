@@ -29,5 +29,4 @@ class Testimonials extends Component {
   }
 }
 
-console.log("hello world");
 export default Testimonials;
