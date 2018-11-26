@@ -1,0 +1,13 @@
+{
+  "name": "react-saloua",
+  "version": "1.0.0",
+  "description": "react website saloua media",
+  "main": "index.js",
+  "author": "Ivan Martinez Morales",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "mdbreact": "^4.8.4",
+    "reactjs-popup": "^1.3.1"
+  }
+}
