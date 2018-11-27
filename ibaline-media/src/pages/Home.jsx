@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Jumbotron, Container } from "reactstrap";
+import Background from "../assets/img/saloua-intro.jpg";
 const h3Style = {
   fontSize: "20px",
   fontWeight: "bold"
@@ -36,7 +37,7 @@ const IntroParagraph = () => {
 class Home extends Component {
   render() {
     return (
-      <div>
+      <div id="home">
         <Jumbotron>
           <Container>
             <IntroLine />
