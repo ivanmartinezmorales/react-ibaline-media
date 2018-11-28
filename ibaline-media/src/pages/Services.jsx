@@ -30,9 +30,14 @@ const ServicesText = [
 const ServicesHeader = () => {
   return (
     <div className="row">
-      <div className="col-lg-12 text-center py-2">
-        <h2 className="section-heading text-uppercase">services</h2>
-        <div className="py-1" />
+      <div className="col-lg-12 text-center py-4">
+        <h2
+          className="section-heading text-uppercase"
+          style={{ fontFamily: "Montserrat" }}
+        >
+          services
+        </h2>
+        <div className="py-1 pb-3" />
         <h3 className="section-subheading text-muted">
           Some of the services we offer:
         </h3>
@@ -56,13 +61,13 @@ const ServicesList = ({ ServicesText }) => {
 const ServicesWorkWithUs = () => {
   return (
     <div className="py-5">
-      <div className="container">
+      <div className="py-3 px-5">
         <div className="row">
-          <div className="text-center col-md-12">
+          <div className="py-3" />
+          <div className="text-left mx-5">
             <h1 className="section-subheading">Lets work together</h1>
-
             <div className="row">
-              <div className="mx-auto col-md-7">
+              <div className="text-left">
                 <p className="lead">
                   Our passionate team is ready to scale your social media
                   prescence!
@@ -86,19 +91,21 @@ const ServicesWorkWithUs = () => {
 class Services extends Component {
   render() {
     return (
-      <div id="services" class="bg-light">
-        <div className="container text-center">
-          <ServicesHeader />
-        </div>
-        <div className="container text-center">
-          <div className="row w-100">
-            <ServicesList ServicesText={ServicesText} />
+      <section id="services">
+        <div id="services" style={{ backgroundColor: "white" }}>
+          <div className="container text-center">
+            <ServicesHeader />
           </div>
+          <div className="container text-center">
+            <div className="row w-100">
+              <ServicesList ServicesText={ServicesText} />
+            </div>
+          </div>
+          <div className="py-3" />
+          <ServicesWorkWithUs className="" />
+          <Packages />
         </div>
-        <div className="py-3" />
-        <ServicesWorkWithUs />
-        <Packages />
-      </div>
+      </section>
     );
   }
 }

@@ -18,6 +18,17 @@ class App extends Component {
     return (
       <div className="py-0">
         <Home />
+        <div class="py-5" />
+        <Services />
+        <div className="py-3" />
+        <div classNmae="py-3" style={{ background: "blue" }} />
+        <Focus />
+        <div class="py-5" />
+        <About />
+        <div class="py-5" />
+        <Testimonials />
+        <div class="py-5" />
+        <Contact />
       </div>
     );
   }

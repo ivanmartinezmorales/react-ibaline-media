@@ -33,6 +33,7 @@ const SectionHeader = () => {
   };
   return (
     <div className="col-md-12">
+      <br />
       <h2
         className="section-heading text-uppercase text-center"
         style={HeaderStyle}
@@ -66,8 +67,14 @@ const SectionCards = ({ FocusItems }) => {
 class Focus extends Component {
   render() {
     return (
-      <div className="focus-section py-3 mx-1">
-        <SectionHeader />
+      <div
+        className="focus-section py-3 mx-1 "
+        style={{ fontFamily: "Montserrat" }}
+      >
+        <div className="py-3">
+          <SectionHeader />
+        </div>
+        <div className="py-5" />
         <SectionCards FocusItems={FocusItems} />
       </div>
     );

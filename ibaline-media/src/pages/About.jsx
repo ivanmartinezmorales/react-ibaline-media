@@ -80,9 +80,7 @@ const AboutMe = () => {
     <section id="about">
       <div class="py-3">
         <div class="container">
-          <div className="py-5">
-            <IntroBanner />
-          </div>
+          <div className="py-5" />
           <div className="py-2" />
           <AboutMeHeader />
         </div>

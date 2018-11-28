@@ -1,15 +1,19 @@
 import React, { Component } from "react";
 import { Jumbotron, Container } from "reactstrap";
-import Background from "../assets/img/saloua-intro.jpg";
+
+// const divStyle = {
+//   backgroundImage: "url(${IntroImage})",
+//   backgroundImage: "url(${https://ibb.co/D71sJCV})"
+// };
+
 const h3Style = {
-  fontSize: "20px",
+  fontSize: "25px",
   fontWeight: "bold"
   // color: "white"
 };
 
 const pStyle = {
-  fontFamily: "Helvetica",
-  fontSize: "20px"
+  fontSize: "25px"
   // color: "white"
 };
 
@@ -25,24 +29,31 @@ const IntroLine = () => {
 
 const IntroParagraph = () => {
   return (
-    <div className="col-md-4 py-1">
+    <div className="col-md-4 py-1" style={{ background: "rgb(13,43,48)" }}>
       <p style={pStyle}>
         I specialize in empowering businesses and soloprenuers to the next level
-        through efficient, effective social media marketing.
+        through efficient, effective social media marketing
       </p>
     </div>
   );
 };
-
+const imgUrl = "https://i.ibb.co/HrK1SzF/saloua-intro.jpg";
 class Home extends Component {
   render() {
     return (
       <div id="home">
         <Jumbotron>
+          <div class="py-5" />
+          <div class="py-5" />
+
           <Container>
             <IntroLine />
+            <div class="py-3" />
             <IntroParagraph />
           </Container>
+          <div class="py-5" />
+          <div class="py-5" />
+          <div className="py-5" />
         </Jumbotron>
       </div>
     );

@@ -3,11 +3,12 @@ import React, { Component } from "react";
 const TestimonialHeader = () => {
   return (
     <div className="py-3">
+      <div class="py-5" />
       <div class="col-lg-12 text-center">
-        <h2 class="section-heading text-uppercase">CLIENTS</h2>
+        <h2 class="section-heading text-uppercase text-center">CLIENTS</h2>
 
         <h3
-          class="section-subheading text-muted text-center"
+          class="section-subheading text-muted"
           Style="font-family: Montserrat;"
         >
           Our team is trusted by:
@@ -21,7 +22,7 @@ const TestimonialPhotoBanner = () => {
   return (
     <div class="row my-0">
       <div class="col-lg-12 mt-0">
-        <img class="resize" src="img/logos.png" />
+        <img class="img-fluid" src="https://i.ibb.co/R30z6KX/logos.png" />
       </div>
     </div>
   );
@@ -43,10 +44,10 @@ const TestimonialBody = () => {
             <div class="py-2">
               <div class="container">
                 <div class="row">
-                  <div class="col-md-2 mx-auto p-3">
+                  <div class="col-md-4 mx-auto p-3">
                     <img
                       class="img-fluid d-block rounded-circle"
-                      src="https://static.pingendo.com/img-placeholder-2.svg"
+                      src="https://i.ibb.co/TTv6GSz/Testimonial-1.png"
                     />
                   </div>
 
@@ -90,10 +91,10 @@ const TestimonialBody = () => {
                     </div>
                   </div>
 
-                  <div class="col-md-2 mx-auto p-3">
+                  <div class="col-md-4 mx-auto p-3">
                     <img
                       class="img-fluid d-block rounded-circle"
-                      src="https://static.pingendo.com/img-placeholder-2.svg"
+                      src="https://i.ibb.co/6DvTmVv/Testimonial-Lee.jpg"
                     />
                   </div>
                 </div>
