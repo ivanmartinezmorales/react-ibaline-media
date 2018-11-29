@@ -2,7 +2,12 @@ import React, { Component } from "react";
 import { Nav, NavItem, NavLink } from "reactstrap";
 
 const NavBarLogo = () => {
-  return <div className="" />;
+  /*
+    NavBarLogo: contains the logo and Ibaline Media next to it in the navbar.
+     */
+  return (<div className="navbar-brand">
+
+  </div>);
 };
 
 const NavBarComponentList = () => {
@@ -13,7 +18,33 @@ const NavBarComponentList = () => {
      */
   return (
     <div>
-      <ul className="navbar-nav mr-auto" />
+      <ul className="navbar-nav mr-auto">
+        <li className="nav-item">
+          <a className="nav-link" href="#home">
+            Home
+          </a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link" href="#focus">
+            Focus
+          </a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link" href="#services">
+            Services
+          </a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link" href="#about">
+            About
+          </a>
+        </li>
+        <li className="nav-item">
+          <a className="nav-link" href="#testimonials">
+            Testimonials
+          </a>
+        </li>
+      </ul>
     </div>
   );
 };
@@ -30,25 +61,38 @@ const NavBarSocialMedia = () => {
     With appropriate icons from font-awesome!
 
    */
-    return(
-        <div>
-            <ul className="navbar-nav ml-auto">
-                <li className="nav-item mx-1"><a className="nav-link" href="#">
-                    <i className="fa fa-facebook fa-fw fa-lg"/>
-                </a></li>
-                <li className="nav-item mx-1"><a className="nav-link" href="#">
-                    <i className="fa fa-instagram fa-fw fa-lg"/>
-                </a></li>
-                <li className="nav-item mx-1"><a className="nav-link" href="https://twitter.com/salouaibaline?lang=en">
-                    <i className="fa fa-twitter fa-fw fa-lg"/>
-                </a></li>
-                <li className="nav-item mx-1"><a className="nav-link" href="https://www.linkedin.com/in/salouaibaline/">
-                    <i className="fa fa-linkedin fa-fw fa-lg"/>
-                </a></li>
-            </ul>
-        </div>
-    )
-
+  return (
+    <div>
+      <ul className="navbar-nav ml-auto">
+        <li className="nav-item mx-1">
+          <a className="nav-link" href="#">
+            <i className="fa fa-facebook fa-fw fa-lg" />
+          </a>
+        </li>
+        <li className="nav-item mx-1">
+          <a className="nav-link" href="#">
+            <i className="fa fa-instagram fa-fw fa-lg" />
+          </a>
+        </li>
+        <li className="nav-item mx-1">
+          <a
+            className="nav-link"
+            href="https://twitter.com/salouaibaline?lang=en"
+          >
+            <i className="fa fa-twitter fa-fw fa-lg" />
+          </a>
+        </li>
+        <li className="nav-item mx-1">
+          <a
+            className="nav-link"
+            href="https://www.linkedin.com/in/salouaibaline/"
+          >
+            <i className="fa fa-linkedin fa-fw fa-lg" />
+          </a>
+        </li>
+      </ul>
+    </div>
+  );
 };
 
 const NavBarFrame = () => {

@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="dcbb1364-d032-423b-8a22-266b6c090eda" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/ibaline-media/src/components/Navbar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/ibaline-media/src/components/Navbar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ibaline-media/src/pages/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/ibaline-media/src/pages/Home.jsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -62,11 +63,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ibaline-media/src/components/Navbar.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="44" column="118" selection-start-line="44" selection-start-column="118" selection-end-line="44" selection-end-column="118" />
+            <state relative-caret-position="128">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ibaline-media/src/pages/Home.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="7" column="70" selection-start-line="7" selection-start-column="70" selection-end-line="7" selection-end-column="70" />
               <folding>
                 <element signature="e#0#41#0" expanded="true" />
               </folding>
@@ -86,6 +99,7 @@
         <option value="$PROJECT_DIR$/ibaline-media/src/components/Packages.jsx" />
         <option value="$PROJECT_DIR$/ibaline-media/src/components/PackageDetail.jsx" />
         <option value="$PROJECT_DIR$/ibaline-media/src/components/Navbar.jsx" />
+        <option value="$PROJECT_DIR$/ibaline-media/src/pages/Home.jsx" />
       </list>
     </option>
   </component>
@@ -180,7 +194,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3595000" />
+    <option name="totallyTimeSpent" value="4361000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="6" />
@@ -249,8 +263,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ibaline-media/src/components/Navbar.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="44" column="118" selection-start-line="44" selection-start-column="118" selection-end-line="44" selection-end-column="118" />
+        <state relative-caret-position="128">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ibaline-media/src/pages/Home.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="70" selection-start-line="7" selection-start-column="70" selection-end-line="7" selection-end-column="70" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
