@@ -5,7 +5,7 @@ import { Jumbotron, Container } from "reactstrap";
 //   backgroundImage: "url(${IntroImage})",
 //   backgroundImage: "url(${https://ibb.co/D71sJCV})"
 // };
-// TODO: Add container class to everything! You're missing that fool. 
+// TODO: Add container class to everything! You're missing that fool.
 const h3Style = {
   fontSize: "25px",
   fontWeight: "bold"
