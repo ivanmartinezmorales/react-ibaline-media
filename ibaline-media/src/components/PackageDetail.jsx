@@ -1,5 +1,5 @@
 import React from "react";
-import { Button } from 'reactstrap';
+import { Button } from "reactstrap";
 /*
     For each section, the photo will reside in the COL-4 section, and the text will all reside
     inside of the col-md-8 section. Both sections need to be responsive
@@ -13,51 +13,74 @@ import { Button } from 'reactstrap';
 
  */
 
-const PackagesColumnText = () => {
-  // text section of the packages section
-  // includes title, subtitle, text, button
-  // organized as follows:
-  //     4 rows, both
+
+
+const PackagePhoto = () => {
   return (
-    <div className="col-md-8">
-      <div className="row">
-        <div className="text-left col-md-6">
-          <h2>Title of package</h2>
-          <h3>Subtitle goes here</h3>
-        </div>
-        <div className="text-left">
-          <p>Talk about packages here.</p>
-        </div>
-          <Button>Click here to get started</Button>
-      </div>
+    <div className="p-0 col-lg-5 order-2 order-lg-1">
+      <img
+        className="img-fluid d-block"
+        src="https://static.pingendo.com/cover-bubble-light.svg"
+      />
     </div>
   );
 };
 
-const PackagesPhoto = () => {
-  /*
-  In this stateless fuction, the photo will go here.
-  We can add props to this at a later date, for now it will be static.
-  Photos will be in col-md-4.
-   */
-
+const PackageContent = () => {
   return (
-      <div className="col-md-4">
-        <h2>Put photo here</h2>
+    <div className="d-flex flex-column justify-content-center p-3 col-lg-7 order-1 order-lg-2">
+      <h1 className="">Startup Package</h1>
+      <h2 className="">Starting out</h2>
+      <p className="">
+        Paragraph. Then, my friend, when darkness overspreads my eyes, and
+        heaven and earth seem to dwell in my soul and absorb its power, like the
+        form of a beloved mistress, then I often think with longing.
+      </p>
+      <a className="btn btn-primary" href="#">
+        Let's get started (Opens the typeform on the side)
+      </a>
+    </div>
+  );
+};
+
+const Package = () => {
+  return (
+    <section>
+      <div className="py-3">
+        <div className="container">
+          <div className="row">
+            <PackagePhoto />
+            <PackageContent />
+          </div>
+        </div>
       </div>
-  )
-}
+      <div className="py-3">
+        <div className="container">
+          <div className="row">
+            <PackagePhoto />
+            <PackageContent />
+          </div>
+        </div>
+      </div>
+      <div className="py-3">
+        <div className="container">
+          <div className="row">
+            <PackagePhoto />
+            <PackageContent />
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
 
 const PackagesSection = () => {
   /* Packages section - a section for putting our elements together to create ONE package.
   It will contain both the image and the text, with the button at the bottom
    */
-  return (
-      <div className="py-3">
-        <PackagesPhoto/>
-        <PackagesColumnText/>
-      </div>
-  )
-}
+  return <div className="py-3 container">
+    <Package/>
+  </div>;
+};
 
 export default PackagesSection;

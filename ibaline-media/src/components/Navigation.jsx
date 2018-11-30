@@ -11,7 +11,7 @@ import {
     DropdownToggle,
     DropdownMenu,
     DropdownItem,
-    Button} from 'reactstrap';
+    Button } from 'reactstrap';
 
 export default class Navigation extends React.Component {
     constructor(props) {
