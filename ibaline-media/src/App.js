@@ -11,13 +11,14 @@ import Testimonials from "./pages/Testimonials.jsx";
 import Contact from "./pages/Contact.jsx";
 
 import Navbar from "./components/Navbar.jsx";
+import Example from "./components/Navigation";
 import ContactButton from "./components/ContactButton.jsx";
 // import SubscriptionPopup from "./components/SubscriptionPopup.jsx";
 class App extends Component {
   render() {
     return (
         <div>
-          <Navbar/>
+          <Example/>
         </div>
     );
   }

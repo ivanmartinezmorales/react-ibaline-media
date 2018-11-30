@@ -1,13 +1,25 @@
 import React, { Component } from "react";
-import { Nav, NavItem, NavLink } from "reactstrap";
+
+
+const NavBarCollapse = () => {
+  /*
+  NavBarCollapse - a function that collapses the Navbar at a given width.
+   */
+  return(
+    <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"/>
+  );
+};
+
+
+
 
 const NavBarLogo = () => {
   /*
     NavBarLogo: contains the logo and Ibaline Media next to it in the navbar.
      */
-  return (<div className="navbar-brand">
-
-  </div>);
+  return <div className="navbar-brand">
+      <a class="navbar-brand">Ibaline Media</a>
+  </div>;
 };
 
 const NavBarComponentList = () => {
@@ -65,12 +77,12 @@ const NavBarSocialMedia = () => {
     <div>
       <ul className="navbar-nav ml-auto">
         <li className="nav-item mx-1">
-          <a className="nav-link" href="#">
+          <a className="nav-link" href="https://www.facebook.com/salouaibaline">
             <i className="fa fa-facebook fa-fw fa-lg" />
           </a>
         </li>
         <li className="nav-item mx-1">
-          <a className="nav-link" href="#">
+          <a className="nav-link" href="https://www.instagram.com/salouaibaline">
             <i className="fa fa-instagram fa-fw fa-lg" />
           </a>
         </li>
@@ -98,7 +110,9 @@ const NavBarSocialMedia = () => {
 const NavBarFrame = () => {
   return (
     <div className="nav navbar-expand-lg">
-      <h1>N A V B A R B O I</h1>
+      <NavBarLogo/>
+      <NavBarComponentList/>
+      <NavBarSocialMedia/>
     </div>
   );
 };
@@ -106,8 +120,9 @@ const NavBarFrame = () => {
 class Navbar extends Component {
   render() {
     return (
-      <div>
-        <h1>Placeholder text</h1>
+      <div class="container" role="navigation">
+        <NavBarFrame />
+
       </div>
     );
   }
