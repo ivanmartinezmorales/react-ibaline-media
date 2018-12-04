@@ -18,7 +18,7 @@ const NavBarLogo = () => {
     NavBarLogo: contains the logo and Ibaline Media next to it in the navbar.
      */
   return <div className="navbar-brand">
-      <a class="navbar-brand">Ibaline Media</a>
+      <a className="navbar-brand">Ibaline Media</a>
   </div>;
 };
 
@@ -120,7 +120,7 @@ const NavBarFrame = () => {
 class Navbar extends Component {
   render() {
     return (
-      <div class="container" role="navigation">
+      <div className="container" role="navigation">
         <NavBarFrame />
 
       </div>

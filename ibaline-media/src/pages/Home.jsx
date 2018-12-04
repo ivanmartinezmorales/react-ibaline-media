@@ -7,8 +7,8 @@ import { Jumbotron, Container } from "reactstrap";
 // };
 // TODO: Add container class to everything! You're missing that fool.
 const h3Style = {
-  fontSize: "25px",
-  fontWeight: "bold"
+  fontSize: "30px",
+    fontFamily: "Mr Dafoe"
   // color: "white"
 };
 
@@ -20,39 +20,42 @@ const pStyle = {
 const IntroLine = () => {
   return (
     <div className="py-4">
-      <h3 style={h3Style}>
-        Hi, I'm Saloua | Digital Marketing + Social Media Expert
-      </h3>
+      <h2 style={h3Style}>
+        Hello there, I'm Saloua |
+      </h2>
+        <h3 style={h3Style}>Social Media Specialist + Business Coach</h3>
     </div>
   );
 };
 
 const IntroParagraph = () => {
   return (
-    <div className="col-md-4 py-1" style={{ background: "rgb(13,43,48)" }}>
+    <div className="col-md-4 py-1">
       <p style={pStyle}>
-        I specialize in empowering businesses and soloprenuers to the next level
+        I specialize in empowering businesses and solo-prenuers to the next level
         through efficient, effective social media marketing
       </p>
     </div>
   );
 };
 const imgUrl = "https://i.ibb.co/HrK1SzF/saloua-intro.jpg";
+
+
 class Home extends Component {
   render() {
     return (
-      <div id="home">
+      <div id="home container">
         <Jumbotron>
-          <div class="py-5" />
-          <div class="py-5" />
+
+          <div className="py-5" />
 
           <Container>
             <IntroLine />
-            <div class="py-3" />
+            <div className="py-5" />
             <IntroParagraph />
           </Container>
-          <div class="py-5" />
-          <div class="py-5" />
+          <div className="py-5" />
+          <div className="py-5" />
           <div className="py-5" />
         </Jumbotron>
       </div>

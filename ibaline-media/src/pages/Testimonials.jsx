@@ -3,12 +3,12 @@ import React, { Component } from "react";
 const TestimonialHeader = () => {
   return (
     <div className="py-3">
-      <div class="py-5" />
-      <div class="col-lg-12 text-center">
-        <h2 class="section-heading text-uppercase text-center">CLIENTS</h2>
+      <div className="py-5" />
+      <div className="col-lg-12 text-center">
+        <h2 className="section-heading text-uppercase text-center">CLIENTS</h2>
 
         <h3
-          class="section-subheading text-muted"
+          className="section-subheading text-muted"
           Style="font-family: Montserrat;"
         >
           Our team is trusted by:
@@ -20,9 +20,9 @@ const TestimonialHeader = () => {
 
 const TestimonialPhotoBanner = () => {
   return (
-    <div class="row my-0">
-      <div class="col-lg-12 mt-0">
-        <img class="img-fluid" src="https://i.ibb.co/R30z6KX/logos.png" />
+    <div className="row my-0">
+      <div className="col-lg-12 mt-0">
+        <img className="img-fluid" src="https://i.ibb.co/R30z6KX/logos.png" />
       </div>
     </div>
   );
@@ -31,30 +31,30 @@ const TestimonialPhotoBanner = () => {
 const TestimonialBody = () => {
   return (
     <section id="testimonials">
-      <div class="container">
-        <div class="row">
+      <div className="container">
+        <div className="row">
           <TestimonialHeader />
         </div>
         <TestimonialPhotoBanner />
 
-        <div class="container">
-          <div class="py-3">
-            <div class="container" />
+        <div className="container">
+          <div className="py-3">
+            <div className="container" />
 
-            <div class="py-2">
-              <div class="container">
-                <div class="row">
-                  <div class="col-md-4 mx-auto p-3">
+            <div className="py-2">
+              <div className="container">
+                <div className="row">
+                  <div className="col-md-4 mx-auto p-3">
                     <img
-                      class="img-fluid d-block rounded-circle"
+                      className="img-fluid d-block rounded-circle"
                       src="https://i.ibb.co/TTv6GSz/Testimonial-1.png"
                     />
                   </div>
 
-                  <div class="p-3 col-md-8">
-                    <div class="blockquote mb-0">
+                  <div className="p-3 col-md-8">
+                    <div className="blockquote mb-0">
                       <p>
-                        I have watched Saloua build a thriving , women-only ,
+                        I have watched Saloua build a thriving, women-only,
                         entrepreneurial community with consistent sell out
                         audiences. The basis of the build is through a main
                         component of building a digital following - email
@@ -64,7 +64,7 @@ const TestimonialBody = () => {
                         workshops to support entrepreneurial growth
                       </p>
 
-                      <div class="blockquote-footer">
+                      <div className="blockquote-footer">
                         <b>Tanaha Hairston</b>, CEO of Blended Pure
                       </div>
                     </div>
@@ -73,27 +73,38 @@ const TestimonialBody = () => {
               </div>
             </div>
 
-            <div class="py-2">
-              <div class="container">
-                <div class="row">
-                  <div class="p-3 col-md-8">
-                    <div class="blockquote mb-0">
+            <div className="py-2">
+              <div className="container">
+                <div className="row">
+                  <div className="p-3 col-md-8">
+                    <div className="blockquote mb-0">
                       <p>
-                        "I throw myself down among the tall grass by the
-                        trickling stream; and, as I lie close to the earth, a
-                        thousand unknown plants are noticed by me: when I hear
-                        the buzz of the little world among the stalks."
+                        I work with Saloua on my Social Media Strategy. What she
+                        is really all about is helping me grow my revenue. She
+                        is really creative and great to work with. She is
+                        upfront about what is working and what is not working
+                        and I love that about her. She really knows Social Media
+                        Marketing. She helped me integrate my FB store,
+                        strategise my Instagram feed for maximum engagement and
+                        so much more. She is taking all these dispersed pieces
+                        and put them together for me so that it is one cohesive
+                        approach that goes beyond just posting. For Saloua, its
+                        always about how do you grow your business. How do you
+                        make the sale and how do you use social media to do
+                        that. I absolutely love working with her. Thanks, Saloua
+                        for everything you do for me.
                       </p>
 
-                      <div class="blockquote-footer">
-                        <b>J. W. Goethe</b>, CEO at Werther Inc.
+                      <div className="blockquote-footer">
+                        <b>Lee Woodward</b>, CEO at Werther Inc.
+
                       </div>
                     </div>
                   </div>
 
-                  <div class="col-md-4 mx-auto p-3">
+                  <div className="col-md-4 mx-auto p-3">
                     <img
-                      class="img-fluid d-block rounded-circle"
+                      className="img-fluid d-block rounded-circle"
                       src="https://i.ibb.co/6DvTmVv/Testimonial-Lee.jpg"
                     />
                   </div>
@@ -101,18 +112,18 @@ const TestimonialBody = () => {
               </div>
             </div>
 
-            <div class="py-3">
-              <div class="container">
-                <div class="row">
-                  <div class="col-md-2 mx-auto p-3">
+            <div className="py-3">
+              <div className="container">
+                <div className="row">
+                  <div className="col-md-2 mx-auto p-3">
                     <img
-                      class="img-fluid d-block rounded-circle"
+                      className="img-fluid d-block rounded-circle"
                       src="https://static.pingendo.com/img-placeholder-2.svg"
                     />
                   </div>
 
-                  <div class="p-3 col-md-8">
-                    <div class="blockquote mb-0">
+                  <div className="p-3 col-md-8">
+                    <div className="blockquote mb-0">
                       <p>
                         "I throw myself down among the tall grass by the
                         trickling stream; and, as I lie close to the earth, a
@@ -120,7 +131,7 @@ const TestimonialBody = () => {
                         the buzz of the little world among the stalks."
                       </p>
 
-                      <div class="blockquote-footer">
+                      <div className="blockquote-footer">
                         <b>J. W. Goethe</b>, CEO at Werther Inc.
                       </div>
                     </div>

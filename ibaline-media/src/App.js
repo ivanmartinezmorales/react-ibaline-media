@@ -21,7 +21,11 @@ class App extends Component {
     return (
         <div>
           <Example/>
+            <Home/>
             <Packages/>
+            <Focus/>
+            <About/>
+            <Testimonials/>
         </div>
     );
   }

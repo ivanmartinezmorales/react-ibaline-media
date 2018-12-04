@@ -48,10 +48,10 @@ const SectionContent = ({ id, title, img, text }) => {
   return (
     <div className="row">
       <div className="col-lg-5 col-md-6 p-md-4 col-3">
-        <img className="img-fluid d-block" src={img} width={1500} />
+        <img className="img-fluid d-block" src={img}/>
       </div>
       <div className="col-md-6 offset-lg-1 d-flex flex-column justify-content-center py-4">
-        <h4 className="my-3">{title}</h4>
+        <h3 className="my-3">{title}</h3>
         <p className="section-content">{text}</p>
       </div>
     </div>
@@ -68,7 +68,7 @@ class Focus extends Component {
   render() {
     return (
       <div
-        className="focus-section py-3 mx-1 "
+        className=" py-3 container"
         style={{ fontFamily: "Montserrat" }}
       >
         <div className="py-3">

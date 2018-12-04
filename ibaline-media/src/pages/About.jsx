@@ -15,25 +15,13 @@ const AboutMeData = [
   }
 ];
 
-const BannerStyle = {
-  fontFamily: "Montserrat"
-};
-
-const IntroBanner = () => {
-  return (
-    <div className="py-4 text-center">
-      <h2>To your success and nothing less,</h2>
-    </div>
-  );
-};
-
 const AboutMeHeader = () => {
   return (
-    <div class="row">
-      <div class="mx-auto col-md-8">
-        <h2 class="section-heading text-uppercase text-center">About Us</h2>
+    <div className="row">
+      <div className="mx-auto col-md-8">
+        <h2 className="section-heading text-uppercase text-center">About Us</h2>
 
-        <p class="lead text-center">Insert tagline here.</p>
+        <p className="lead text-center">Insert tagline here.</p>
       </div>
     </div>
   );
@@ -41,32 +29,22 @@ const AboutMeHeader = () => {
 
 const AboutMeSection = () => {
   return (
-    <div class="row my-4 d-flex justify-content-center">
-      <div class="d-flex flex-column justify-content-center p-3 col-lg-7">
-        <p class="lead mb-0 text-center text-lg-left">
-          I'm a business coach and digital marketing expert that focuses
-          primarily on social media marketing for solopreneurs and small
-          businesses. I consult, I speak and I work with companies around the
-          globe. My primary focus is to educate small businesses to use digital
-          marketing to grow their brand, connect with their ideal
-          clients/customers and generate sales.
+    <div className="row my-4 d-flex justify-content-center">
+      <div className="d-flex flex-column justify-content-center p-3 col-lg-7">
+        <p className="lead mb-0 text-center text-lg-left">
+          Saloua Ibaline is a certified Business Coach and a Digital Marketing
+          Expert who focuses primarily on social media marketing for driven and
+          creative business owners & solopreneurs. Saloua has a decade of
+          experience in business, sales, and marketing.
         </p>
       </div>
 
-      <div class="p-0 col-md-3 col-sm-6">
+      <div className="p-0 col-md-3 col-sm-6">
         <img
-          class="img-fluid d-block"
+          className="img-fluid d-block"
           src="https://static.pingendo.com/img-placeholder-2.svg"
         />
       </div>
-    </div>
-  );
-};
-
-const PersonalBioBanner = () => {
-  return (
-    <div className="py-3 text-center">
-      <h2 className="section-subheading">Meet the Owner</h2>
     </div>
   );
 };
@@ -78,37 +56,40 @@ const AboutMe = () => {
 
   return (
     <section id="about">
-      <div class="py-3">
-        <div class="container">
+      <div className="py-3">
+        <div className="container">
           <div className="py-5" />
           <div className="py-2" />
           <AboutMeHeader />
         </div>
         <AboutMeSection />
-        <div className="py-3">
-          <PersonalBioBanner />
-        </div>
+        <div className="py-3" />
 
-        <div class="row my-4 d-flex justify-content-center">
-          <div class="p-0 order-2 order-lg-1 col-md-3 col-sm-6">
+        <div className="row my-2 d-flex justify-content-center">
+          <div className="p-0 order-2 order-lg-1 col-md-3 col-sm-6">
             <img
-              class="img-fluid d-block"
+              className="img-fluid d-block"
               src="https://static.pingendo.com/img-placeholder-4.svg"
             />
           </div>
 
-          <div class="d-flex flex-column justify-content-center p-3 col-lg-7 order-1 order-lg-2">
-            <p class="lead mb-0 text-center text-lg-left">
-              Here we can put Saloua's personal bio, with portrait adjacent
+          <div className="d-flex flex-column justify-content-center p-3 col-lg-7 order-1 order-lg-2">
+            <p className="lead mb-0 text-center text-lg-left">
+              After working for Google Adwords, she decided to open her own
+              agency - Ibaline Media where she consults, speaks and works with
+              companies around the globe. Saloua empowers her clients to grow
+              their digital media presence so they can grow their brand and
+              build a successful online business. Nothing makes her happier than
+              making her clients succeed.
             </p>
           </div>
         </div>
       </div>
 
-      <div class="py-4 text-center">
-        <div class="container">
-          <div class="row">
-            <div class="mx-auto col-md-7">
+      <div className="py-1 text-center">
+        <div className="container">
+          <div className="row">
+            <div className="mx-auto col-md-7">
               <hr />
 
               <p contenteditable="true">
@@ -124,61 +105,61 @@ const AboutMe = () => {
         </div>
       </div>
 
-      <div class>
-        <div class="container-fluid">
-          <div class="row">
-            <div class="col-6 col-md-3 p-0">
+      <div>
+        <div className="container-fluid">
+          <div className="row">
+            <div className="col-6 col-md-3 p-0">
               <img
-                class="img-fluid d-block"
+                className="img-fluid d-block"
                 src="https://static.pingendo.com/cover-moon.svg"
               />
             </div>
 
-            <div class="col-6 col-md-3 p-0">
+            <div className="col-6 col-md-3 p-0">
               <img
-                class="img-fluid d-block"
+                className="img-fluid d-block"
                 src="https://static.pingendo.com/cover-bubble-dark.svg"
               />
             </div>
 
-            <div class="col-6 col-md-3 p-0">
+            <div className="col-6 col-md-3 p-0">
               <img
-                class="img-fluid d-block"
+                className="img-fluid d-block"
                 src="https://static.pingendo.com/cover-moon.svg"
               />
             </div>
 
-            <div class="col-6 col-md-3 p-0">
+            <div className="col-6 col-md-3 p-0">
               <img
-                class="img-fluid d-block"
+                className="img-fluid d-block"
                 src="https://static.pingendo.com/cover-bubble-light.svg"
               />
             </div>
 
-            <div class="col-6 col-md-3 p-0">
+            <div className="col-6 col-md-3 p-0">
               <img
-                class="img-fluid d-block"
+                className="img-fluid d-block"
                 src="https://static.pingendo.com/cover-bubble-dark.svg"
               />
             </div>
 
-            <div class="col-6 col-md-3 p-0">
+            <div className="col-6 col-md-3 p-0">
               <img
-                class="img-fluid d-block"
+                className="img-fluid d-block"
                 src="https://static.pingendo.com/cover-moon.svg"
               />
             </div>
 
-            <div class="col-6 col-md-3 p-0">
+            <div className="col-6 col-md-3 p-0">
               <img
-                class="img-fluid d-block"
+                className="img-fluid d-block"
                 src="https://static.pingendo.com/cover-bubble-light.svg"
               />
             </div>
 
-            <div class="col-6 col-md-3 p-0">
+            <div className="col-6 col-md-3 p-0">
               <img
-                class="img-fluid d-block"
+                className="img-fluid d-block"
                 src="https://static.pingendo.com/cover-moon.svg"
               />
             </div>

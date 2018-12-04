@@ -50,9 +50,9 @@ const PackageContent = [
 
 const TableHeaderItem = ({ id, title, description, btnText }) => {
   return (
-    <th class="text-center">
+    <th className="text-center">
       <h3>{title}</h3>
-      <a class="btn btn-primary" href="#contact">
+      <a className="btn btn-primary" href="#contact">
         {btnText}
       </a>
     </th>
@@ -94,15 +94,15 @@ const TableBody = () => {
         <td>One</td>
 
         <td>
-          <i class="fa fa-check fa-lg text-muted" />
+          <i className="fa fa-check fa-lg text-muted" />
         </td>
 
         <td>
-          <i class="fa fa-check fa-lg text-muted" />
+          <i className="fa fa-check fa-lg text-muted" />
         </td>
 
         <td>
-          <i class="fa fa-check fa-lg text-muted" />
+          <i className="fa fa-check fa-lg text-muted" />
         </td>
       </tr>
 
@@ -110,15 +110,15 @@ const TableBody = () => {
         <td>Two</td>
 
         <td>
-          <i class="fa fa-check fa-lg text-muted" />
+          <i className="fa fa-check fa-lg text-muted" />
         </td>
 
         <td>
-          <i class="fa fa-check fa-lg text-muted" />
+          <i className="fa fa-check fa-lg text-muted" />
         </td>
 
         <td>
-          <i class="fa fa-check fa-lg text-muted" />
+          <i className="fa fa-check fa-lg text-muted" />
         </td>
       </tr>
 
@@ -128,11 +128,11 @@ const TableBody = () => {
         <td />
 
         <td>
-          <i class="fa fa-check fa-lg text-muted" />
+          <i className="fa fa-check fa-lg text-muted" />
         </td>
 
         <td>
-          <i class="fa fa-check fa-lg text-muted" />
+          <i className="fa fa-check fa-lg text-muted" />
         </td>
       </tr>
 
@@ -142,11 +142,11 @@ const TableBody = () => {
         <td />
 
         <td>
-          <i class="fa fa-check fa-lg text-muted" />
+          <i className="fa fa-check fa-lg text-muted" />
         </td>
 
         <td>
-          <i class="fa fa-check fa-lg text-muted" />
+          <i className="fa fa-check fa-lg text-muted" />
         </td>
       </tr>
 
@@ -158,7 +158,7 @@ const TableBody = () => {
         <td />
 
         <td>
-          <i class="fa fa-check fa-lg text-muted" />
+          <i className="fa fa-check fa-lg text-muted" />
         </td>
       </tr>
 
@@ -170,7 +170,7 @@ const TableBody = () => {
         <td />
 
         <td>
-          <i class="fa fa-check fa-lg text-muted" />
+          <i className="fa fa-check fa-lg text-muted" />
         </td>
       </tr>
     </tbody>
@@ -180,10 +180,10 @@ const TableBody = () => {
 class Packages extends React.Component {
   render() {
     return (
-      <div class="py-5">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
+      <div className="py-5">
+        <div className="container">
+          <div className="row">
+            <div className="col-md-12">
               <Table>
                 <TableHeader />
                 <TableBody />

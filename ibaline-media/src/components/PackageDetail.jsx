@@ -13,63 +13,72 @@ import { Button } from "reactstrap";
 
  */
 
+const PackageItemsData = [
+  {
+    id: 1,
+    title: "Start Up Package",
+    subtitle: "For Small Businesses and Startups",
+    img:
+      "https://images.unsplash.com/photo-1519895173443-d259e1fc4962?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=7b751cf508d1137fd7c06736b0811897&auto=format&fit=crop&w=1722&q=80",
+    HookText: "Just getting started? Let's create your online brand.",
+    PackageText:
+      "In this package, we will journey through creating your digital brand and using our focus to empower your brand to the next level."
+  },
+  {
+    id: 2,
+    title: "Level Up Package",
+    subtitle: "For Growing Activities",
+    img: "https://images.unsplash.com/photo-1525857332689-4b3110c2d3f3?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=64092aab3ca44d0dd8f1314166dba348&auto=format&fit=crop&w=1228&q=80",
+    HookText:
+      "Already have a digital presence? Let's work together to take your brand to the next level!",
+    PackageText:
+      "In this package, we will journey with you to empower your digital brand. We will work together identify opportunities for growth; then take those opportunities and make them a reality."
+  },
+  {
+    id: 3,
+    title: "Success Package",
+    subtitle: "For Big Firms and Companies",
+    img: "https://images.unsplash.com/photo-1525422847952-7f91db09a364?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ce6622924dae3b9be067e1778a6b8707&auto=format&fit=crop&w=1365&q=80",
+    HookText:
+      "A one-of-a-kind, unique experience tailored to the needs of your industry.",
+    PackageText:
+      "This package is perfect for businesses and firms looking to make a solid, consistent digital footprint."
+  }
+];
 
 
-const PackagePhoto = () => {
+
+const PackageContent = ({ title, subtitle, img, HookText, PackageText }) => {
   return (
-    <div className="p-0 col-lg-5 order-2 order-lg-1">
-      <img
-        className="img-fluid d-block"
-        src="https://static.pingendo.com/cover-bubble-light.svg"
-      />
+    <div className="py-3">
+      <div className="container">
+        <div className="row">
+          <div className="p-0 col-lg-5 order-2 order-lg-1">
+            <img className="img-fluid d-block" src={img} />
+          </div>
+          <div className="d-flex flex-column justify-content-center p-3 col-lg-7 order-1 order-lg-2">
+            <h1 className="">{title}</h1>
+            <h2 className="">{subtitle}</h2>
+            <p className="font-italic">{HookText}</p>
+            <p className="package-text">{PackageText}</p>
+            <a className="btn btn-primary" href="https://salouaibaline.typeform.com/to/omkmNQ">
+              Let's get started
+            </a>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
 
-const PackageContent = () => {
-  return (
-    <div className="d-flex flex-column justify-content-center p-3 col-lg-7 order-1 order-lg-2">
-      <h1 className="">Startup Package</h1>
-      <h2 className="">Starting out</h2>
-      <p className="">
-        Paragraph. Then, my friend, when darkness overspreads my eyes, and
-        heaven and earth seem to dwell in my soul and absorb its power, like the
-        form of a beloved mistress, then I often think with longing.
-      </p>
-      <a className="btn btn-primary" href="#">
-        Let's get started (Opens the typeform on the side)
-      </a>
-    </div>
-  );
+const PackageContents = ({ PackageItemsData }) => {
+  return PackageItemsData.map(item => <PackageContent {...item} key={item.id} />);
 };
 
 const Package = () => {
   return (
     <section>
-      <div className="py-3">
-        <div className="container">
-          <div className="row">
-            <PackagePhoto />
-            <PackageContent />
-          </div>
-        </div>
-      </div>
-      <div className="py-3">
-        <div className="container">
-          <div className="row">
-            <PackagePhoto />
-            <PackageContent />
-          </div>
-        </div>
-      </div>
-      <div className="py-3">
-        <div className="container">
-          <div className="row">
-            <PackagePhoto />
-            <PackageContent />
-          </div>
-        </div>
-      </div>
+        <PackageContents PackageItemsData={PackageItemsData}/>
     </section>
   );
 };
@@ -78,9 +87,16 @@ const PackagesSection = () => {
   /* Packages section - a section for putting our elements together to create ONE package.
   It will contain both the image and the text, with the button at the bottom
    */
-  return <div className="py-3 container">
-    <Package/>
-  </div>;
+  return (
+    <div className="py-3 container">
+      <div className="py-3 container">
+        <div className="py-sm-5"/>
+          <h1 className="section-heading text-center">Our Offerings</h1>
+          <div className="py-sm-5"/>
+      </div>
+      <Package />
+    </div>
+  );
 };
 
 export default PackagesSection;
