@@ -46,7 +46,7 @@ const TestimonialBody = () => {
                 <div className="row">
                   <div className="col-md-4 mx-auto p-3">
                     <img
-                      className="img-fluid d-block rounded-circle"
+                      className="img-fluid d-block rounded"
                       src="https://i.ibb.co/TTv6GSz/Testimonial-1.png"
                     />
                   </div>
@@ -104,7 +104,7 @@ const TestimonialBody = () => {
 
                   <div className="col-md-4 mx-auto p-3">
                     <img
-                      className="img-fluid d-block rounded-circle"
+                      className="img-fluid d-block"
                       src="https://i.ibb.co/6DvTmVv/Testimonial-Lee.jpg"
                     />
                   </div>

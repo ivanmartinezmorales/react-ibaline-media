@@ -26,6 +26,7 @@ class App extends Component {
             <Focus/>
             <About/>
             <Testimonials/>
+            <Contact/>
         </div>
     );
   }
