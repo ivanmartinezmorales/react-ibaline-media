@@ -66,16 +66,7 @@ class Footer extends React.Component {
                           </div>
                       </div>
 
-                      <div className="row">
-                          <div className="col-md-12 text-center">
-                              <p className="mt-2 mb-0 text-muted">
-                                  <small>
-                                      Created by
-                                      <a href="www.github.com/ivanmartinezmorales">Ivan</a>
-                                  </small>
-                              </p>
-                          </div>
-                      </div>
+
                   </div>
               </div>
           </section>

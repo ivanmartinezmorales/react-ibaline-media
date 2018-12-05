@@ -3,27 +3,35 @@ import Packages from "./Packages.jsx";
 const ServicesText = [
   {
     id: 1,
-    title: "Social Media Management"
+    title: "Social Media Management",
+      text: "Our packages include posts, Monday through Friday at strategic times in order to maximize your Reach and Impressions on your preferred social media platform"
   },
   {
     id: 2,
-    title: "Content Creation"
+    title: "Content Creation",
+      text: "We work with you to create engaging content that keeps people coming back to your page."
   },
   {
     id: 3,
-    title: "Social Media Advertising"
+    title: "Social Media Advertising",
+      text: "Using your social media metrics, we create a strategy to optimize your advertising budget."
   },
   {
     id: 4,
-    title: "Business/Marketing Coaching"
+    title: "Business/Marketing Coaching",
+      text: "We use our decade of successful business and marketing coaching to empower your digital footprint to the next level through strategic brand placement, etc..."
+
   },
   {
     id: 5,
-    title: "Ad Campaigns Optimization"
+    title: "Ad Campaigns Optimization",
+      text: "For our success members, we utilize A/B testing..."
   },
   {
     id: 6,
-    title: "Influencers Marketing"
+    title: "Influencers Marketing",
+      text: "Placeholder text for the time being."
+
   }
 ];
 
@@ -38,18 +46,18 @@ const ServicesHeader = () => {
           services
         </h2>
         <div className="py-1 pb-3" />
-        <h3 className="section-subheading text-muted">
-          Some of the services we offer:
-        </h3>
+
+        <div className="py-5"/>
       </div>
     </div>
   );
 };
 
-const ServicesItem = ({ id, title }) => {
+const ServicesItem = ({ id, title, text}) => {
   return (
     <div className="col-md-4">
       <h4 className="service-content">{title}</h4>
+      <p className="service-info">{text}</p>
     </div>
   );
 };
@@ -60,17 +68,17 @@ const ServicesList = ({ ServicesText }) => {
 
 const ServicesWorkWithUs = () => {
   return (
-    <div className="py-5">
-      <div className="py-3 px-5">
+    <div className="py-5 justify-content-center">
+      <div className="py-3">
         <div className="row">
           <div className="py-3" />
-          <div className="text-left mx-5">
+          <div className="text-center">
             <h1 className="section-subheading">Lets work together</h1>
             <div className="row">
-              <div className="text-left">
+              <div className="text-center">
                 <p className="lead">
                   Our passionate team is ready to scale your social media
-                  prescence!
+                  presence!
                   <br />
                 </p>
 
@@ -91,8 +99,9 @@ const ServicesWorkWithUs = () => {
 class Services extends Component {
   render() {
     return (
-      <section id="services">
-        <div id="services" style={{ backgroundColor: "white" }}>
+      <section id="services" className="container-fluid">
+        <div id="services">
+          <div className="py-5"/>
           <div className="container text-center">
             <ServicesHeader />
           </div>
@@ -102,8 +111,8 @@ class Services extends Component {
             </div>
           </div>
           <div className="py-3" />
-          <ServicesWorkWithUs className="" />
-          <Packages />
+          {/*<ServicesWorkWithUs className="" />*/}
+          {/*<Packages />*/}
         </div>
       </section>
     );

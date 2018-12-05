@@ -13,20 +13,22 @@ import Contact from "./pages/Contact.jsx";
 import Navbar from "./components/Navbar.jsx";
 import Example from "./components/Navigation";
 import ContactButton from "./components/ContactButton.jsx";
-
+import Footer from "./components/Footer.jsx";
 import Packages from "./components/Packages.jsx";
 // import SubscriptionPopup from "./components/SubscriptionPopup.jsx";
 class App extends Component {
   render() {
     return (
-        <div>
-          <Example/>
+        <div className="container">
+          {/*<Example/>*/}
             <Home/>
+            <Services/>
             <Packages/>
             <Focus/>
             <About/>
             <Testimonials/>
             <Contact/>
+          <Footer/>
         </div>
     );
   }

@@ -54,14 +54,14 @@ const PackageContent = ({ title, subtitle, img, HookText, PackageText }) => {
       <div className="container">
         <div className="row">
           <div className="p-0 col-lg-5 order-2 order-lg-1">
-            <img className="img-fluid d-block" src={img} />
+            <img className="img-fluid d-block" src={img}  alt={"photo of things"}/>
           </div>
           <div className="d-flex flex-column justify-content-center p-3 col-lg-7 order-1 order-lg-2">
-            <h1 className="">{title}</h1>
-            <h2 className="">{subtitle}</h2>
+            <h1 className="section-subheading">{title}</h1>
+            <h2 className="service-content">{subtitle}</h2>
             <p className="font-italic">{HookText}</p>
             <p className="package-text">{PackageText}</p>
-            <a className="btn btn-primary" href="https://salouaibaline.typeform.com/to/omkmNQ">
+            <a className="btn btn-primary btn-grad" href="https://salouaibaline.typeform.com/to/omkmNQ">
               Let's get started
             </a>
           </div>
@@ -91,8 +91,9 @@ const PackagesSection = () => {
     <div className="py-3 container">
       <div className="py-3 container">
         <div className="py-sm-5"/>
-          <h1 className="section-heading text-center">Our Offerings</h1>
+          <h1 className="section-heading text-center">Our Journeys</h1>
           <div className="py-sm-5"/>
+
       </div>
       <Package />
     </div>

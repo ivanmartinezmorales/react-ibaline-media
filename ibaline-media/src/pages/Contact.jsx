@@ -100,7 +100,7 @@ const FormBody = () => {
 class Contact extends Component {
   render() {
     return (
-      <div className="py-3 justify-content-center">
+      <div className="py-3 justify-content-center contact-form">
         <Form>
           <FormBody />
         </Form>

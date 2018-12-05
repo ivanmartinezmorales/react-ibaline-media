@@ -2,7 +2,7 @@ import React, { Component } from "react";
 
 const TestimonialHeader = () => {
   return (
-    <div className="py-3">
+    <div className="py-3 container">
       <div className="py-5" />
       <div className="col-lg-12 text-center">
         <h2 className="section-heading text-uppercase text-center">CLIENTS</h2>
@@ -46,7 +46,7 @@ const TestimonialBody = () => {
                 <div className="row">
                   <div className="col-md-4 mx-auto p-3">
                     <img
-                      className="img-fluid d-block rounded"
+                      className="img-fluid d-block rounded narrow-image"
                       src="https://i.ibb.co/TTv6GSz/Testimonial-1.png"
                     />
                   </div>
@@ -96,7 +96,7 @@ const TestimonialBody = () => {
                       </p>
 
                       <div className="blockquote-footer">
-                        <b>Lee Woodward</b>, CEO at Werther Inc.
+                        <b>Lee Woodward</b>, CEO of Women in Disguise
 
                       </div>
                     </div>
@@ -112,33 +112,33 @@ const TestimonialBody = () => {
               </div>
             </div>
 
-            <div className="py-3">
-              <div className="container">
-                <div className="row">
-                  <div className="col-md-2 mx-auto p-3">
-                    <img
-                      className="img-fluid d-block rounded-circle"
-                      src="https://static.pingendo.com/img-placeholder-2.svg"
-                    />
-                  </div>
+            {/*<div className="py-3">*/}
+              {/*<div className="container">*/}
+                {/*<div className="row">*/}
+                  {/*<div className="col-md-2 mx-auto p-3">*/}
+                    {/*<img*/}
+                      {/*className="img-fluid d-block rounded-circle"*/}
+                      {/*src="https://static.pingendo.com/img-placeholder-2.svg"*/}
+                    {/*/>*/}
+                  {/*</div>*/}
 
-                  <div className="p-3 col-md-8">
-                    <div className="blockquote mb-0">
-                      <p>
-                        "I throw myself down among the tall grass by the
-                        trickling stream; and, as I lie close to the earth, a
-                        thousand unknown plants are noticed by me: when I hear
-                        the buzz of the little world among the stalks."
-                      </p>
+                  {/*/!*<div className="p-3 col-md-8">*!/*/}
+                    {/*/!*<div className="blockquote mb-0">*!/*/}
+                      {/*/!*<p>*!/*/}
+                        {/*/!*"I throw myself down among the tall grass by the*!/*/}
+                        {/*/!*trickling stream; and, as I lie close to the earth, a*!/*/}
+                        {/*/!*thousand unknown plants are noticed by me: when I hear*!/*/}
+                        {/*/!*the buzz of the little world among the stalks."*!/*/}
+                      {/*/!*</p>*!/*/}
 
-                      <div className="blockquote-footer">
-                        <b>J. W. Goethe</b>, CEO at Werther Inc.
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+                      {/*/!*<div className="blockquote-footer">*!/*/}
+                        {/*/!*<b>J. W. Goethe</b>, CEO at Werther Inc.*!/*/}
+                      {/*/!*</div>*!/*/}
+                    {/*/!*</div>*!/*/}
+                  {/*/!*</div>*!/*/}
+                {/*</div>*/}
+              {/*</div>*/}
+            {/*</div>*/}
           </div>
         </div>
       </div>
@@ -149,7 +149,7 @@ const TestimonialBody = () => {
 class Testimonials extends Component {
   render() {
     return (
-      <div className="py-3">
+      <div className="py-3 container">
         <TestimonialBody />
       </div>
     );
