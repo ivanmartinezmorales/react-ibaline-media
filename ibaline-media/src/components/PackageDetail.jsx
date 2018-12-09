@@ -1,5 +1,4 @@
 import React from "react";
-import { Button } from "reactstrap";
 /*
     For each section, the photo will reside in the COL-4 section, and the text will all reside
     inside of the col-md-8 section. Both sections need to be responsive
@@ -28,7 +27,8 @@ const PackageItemsData = [
     id: 2,
     title: "Level Up Package",
     subtitle: "For Growing Activities",
-    img: "https://images.unsplash.com/photo-1525857332689-4b3110c2d3f3?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=64092aab3ca44d0dd8f1314166dba348&auto=format&fit=crop&w=1228&q=80",
+    img:
+      "https://images.unsplash.com/photo-1525857332689-4b3110c2d3f3?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=64092aab3ca44d0dd8f1314166dba348&auto=format&fit=crop&w=1228&q=80",
     HookText:
       "Already have a digital presence? Let's work together to take your brand to the next level!",
     PackageText:
@@ -38,7 +38,8 @@ const PackageItemsData = [
     id: 3,
     title: "Success Package",
     subtitle: "For Big Firms and Companies",
-    img: "https://images.unsplash.com/photo-1525422847952-7f91db09a364?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ce6622924dae3b9be067e1778a6b8707&auto=format&fit=crop&w=1365&q=80",
+    img:
+      "https://images.unsplash.com/photo-1525422847952-7f91db09a364?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=ce6622924dae3b9be067e1778a6b8707&auto=format&fit=crop&w=1365&q=80",
     HookText:
       "A one-of-a-kind, unique experience tailored to the needs of your industry.",
     PackageText:
@@ -46,39 +47,47 @@ const PackageItemsData = [
   }
 ];
 
-
-
 const PackageContent = ({ title, subtitle, img, HookText, PackageText }) => {
   return (
-    <div className="py-3">
-      <div className="container">
-        <div className="row">
-          <div className="p-0 col-lg-5 order-2 order-lg-1">
-            <img className="img-fluid d-block" src={img}  alt={"photo of things"}/>
-          </div>
-          <div className="d-flex flex-column justify-content-center p-3 col-lg-7 order-1 order-lg-2">
-            <h1 className="section-subheading">{title}</h1>
-            <h2 className="service-content">{subtitle}</h2>
-            <p className="font-italic">{HookText}</p>
-            <p className="package-text">{PackageText}</p>
-            <a className="btn btn-primary btn-grad" href="https://salouaibaline.typeform.com/to/omkmNQ">
-              Let's get started
-            </a>
+
+      <div className="py-3">
+        <div className="container">
+          <div className="row">
+            <div className="p-0 col-lg-5 order-2 order-lg-1">
+              <img
+                className="img-fluid d-block"
+                src={img}
+                alt={"photo of things"}
+              />
+            </div>
+            <div className="d-flex flex-column justify-content-center p-3 col-lg-7 order-1 order-lg-2">
+              <h1 className="section-subheading">{title}</h1>
+              <h2 className="service-content">{subtitle}</h2>
+              <p className="font-italic">{HookText}</p>
+              <p className="package-text">{PackageText}</p>
+              <a
+                className="btn btn-primary btn-grad"
+                href="https://salouaibaline.typeform.com/to/omkmNQ"
+              >
+                Let's get started
+              </a>
+            </div>
           </div>
         </div>
       </div>
-    </div>
   );
 };
 
 const PackageContents = ({ PackageItemsData }) => {
-  return PackageItemsData.map(item => <PackageContent {...item} key={item.id} />);
+  return PackageItemsData.map(item => (
+    <PackageContent {...item} key={item.id} />
+  ));
 };
 
 const Package = () => {
   return (
     <section>
-        <PackageContents PackageItemsData={PackageItemsData}/>
+      <PackageContents PackageItemsData={PackageItemsData} />
     </section>
   );
 };
@@ -88,15 +97,50 @@ const PackagesSection = () => {
   It will contain both the image and the text, with the button at the bottom
    */
   return (
-    <div className="py-3 container">
-      <div className="py-3 container">
-        <div className="py-sm-5"/>
-          <h1 className="section-heading text-center">Our Journeys</h1>
-          <div className="py-sm-5"/>
+      <div className="container">
+          <div className="py-3 container">
+              <div className="py-3 container">
+                  <div className="py-sm-5" />
+                  <h1 className="section-heading text-center">Packages</h1>
+                  <div className="py-sm-5" />
+              </div>
+
+          </div>
+          <div className="py-5 text-center">
+              <div className="container">
+                  <div className="row">
+                      <div className="mx-auto col-md-7">
+                          <h2 style={{fontFamily: "Montserrat"}}>We specialize in: </h2>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      <div className="py-5" >
+          <div className="container">
+              <div className="row">
+                  <div className="col-md-6">
+                      <div className="card text-center"><img className="card-img-top"
+                                                             src="https://i.ibb.co/Y06ffSp/william-iven-8515-unsplash.jpg"
+                                                             alt="Card image cap" style={{	height: "300px"}}/>
+                          <div className="card-body">
+                              <h1 style={{fontFamily: "Montserrat"}}>Women in Business</h1>
+                          </div>
+                      </div>
+                  </div>
+                  <div className="col-md-6">
+                      <div className="card text-center"><img className="card-img-top"
+                                                             src="https://i.ibb.co/GHjcrYk/wang-xi-1179313-unsplash-1.jpg"
+                                                             alt="Card image cap" style={{	height: "300px"}}/>
+                          <div className="card-body">
+                              <h1 style={{fontFamily: "Montserrat"}}>Social Media Marketing</h1>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
 
       </div>
-      <Package />
-    </div>
   );
 };
 

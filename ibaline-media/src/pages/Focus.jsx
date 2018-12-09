@@ -67,7 +67,7 @@ const SectionCards = ({ FocusItems }) => {
 class Focus extends Component {
   render() {
     return (
-        <section className="focus-background container text-white">
+        <section className="container">
           <div className="py-5"/>
       <div
         className=" py-3"

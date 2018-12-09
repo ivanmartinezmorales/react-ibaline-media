@@ -40,11 +40,10 @@ const ServicesHeader = () => {
     <div className="row">
       <div className="col-lg-12 text-center py-4">
         <h2
-          className="section-heading text-uppercase"
-          style={{ fontFamily: "Montserrat" }}
+          className="section-heading mx-5"
+          style={{ fontFamily: "Montserrat"}}
         >
-          services
-        </h2>
+        Work With Me</h2>
         <div className="py-1 pb-3" />
 
         <div className="py-5"/>
@@ -56,7 +55,8 @@ const ServicesHeader = () => {
 const ServicesItem = ({ id, title, text}) => {
   return (
     <div className="col-md-4">
-      <h4 className="service-content">{title}</h4>
+        <h4 className="service-content"><u>{title}</u></h4>
+      <br/>
       <p className="service-info">{text}</p>
     </div>
   );

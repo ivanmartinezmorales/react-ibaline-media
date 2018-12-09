@@ -1,13 +1,14 @@
 import React, { Component } from "react";
+import {Button} from "reactstrap";
 
 
 const AboutMeHeader = () => {
   return (
     <div className="row">
       <div className="mx-auto col-md-8">
-        <h2 className="section-heading text-uppercase text-center">About Us</h2>
+        <h2 className="section-heading text-uppercase text-center"style={{fontFamily: "" }}>About Me</h2>
 
-        <p className="lead text-center font-italic">Who is Ibaline Media?</p>
+        <p className="lead text-center font-italic" >Who is Saloua Ibaline?</p>
       </div>
     </div>
   );
@@ -27,9 +28,10 @@ const AboutMeSection = () => {
             companies around the globe. Saloua empowers her clients to grow
             their digital media presence so they can grow their brand and
             build a successful online business. Nothing makes her happier than
-            making her clients succeed. <mark className="font-italic">Ready to begin?</mark>
-          <a href="#Contact" >Let's get Acquainted</a>
+            making her clients succeed. Ready to begin?
         </p>
+      <br/>
+        <Button size="lg" outline color="primary">Let's get started</Button>{''}
       </div>
 
 
@@ -52,7 +54,7 @@ const AboutMe = () => {
         <div className="py-3" />
 
         <div className="row my-2 d-flex justify-content-center">
-          <div className="p-0 order-2 order-lg-1 col-md-3 col-sm-6">
+          <div className="p-0 order-2 order-lg-1 col-md-5 col-sm-6">
             <img
               className="img-fluid d-block"
               src="https://i.ibb.co/ZgbrQx3/Saloua015w.jpg"
