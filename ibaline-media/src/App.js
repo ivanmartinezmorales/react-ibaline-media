@@ -5,7 +5,7 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 
 
 // components
-// import Home from "./pages/Home.jsx";
+import Home from "./pages/Home.jsx";
 // import Focus from "./pages/Focus.jsx";
 // import Services from "./pages/Services.jsx";
 // import About from "./pages/About.jsx";
@@ -23,7 +23,7 @@ class App extends Component {
     return (
         <div>
           {/*<Example/>*/}
-            {/*<Home/>*/}
+            <Home/>
             {/*<ColoredLine color={"black"}/>*/}
             {/*<Services/>*/}
             {/*<ColoredLine color={"black"}/>*/}

@@ -1,9 +1,25 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat|Mr+Dafoe|Open+Sans|Kristi');
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Mr+Dafoe|Open+Sans|Kristi|Roboto");
 
 $primary-font: "Montserrat", sans-serif;
 $secondary-font: "Mr Dafoe", cursive;
 $tertiary-font: "Open Sans", sans-serif;
 $title-font: "Kristi", sans-serif;
+
+.masthead {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 50rem;
+  padding: 10px;
+  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.55) 75%, #161616 100%), url("./img/saloua-intro.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+
+
+}
+
 
 .btn .btn-primary {
   -webkit-border-radius: 0 !important;
@@ -17,9 +33,9 @@ $title-font: "Kristi", sans-serif;
   font-family: "Montserrat", sans-serif;
 }
 
-h1, h2 {
+h1,
+h2 {
   font-family: secondary-font, sans-serif;
-
 }
 
 .section-heading {
@@ -53,7 +69,6 @@ h1, h2 {
 }
 
 .section-heading {
-
   font-weight: bold;
   font-size: 60px;
 }
@@ -126,12 +141,14 @@ img.bg {
   left: 0;
 }
 
-.btn-primary, .btn-primary:hover {
+.btn-primary,
+.btn-primary:hover {
   background-color: #187e64;
   border-color: #187e64;
 }
 
-.btn-outline-primary, .btn-primary:hover {
+.btn-outline-primary,
+.btn-primary:hover {
   background-color: transparent;
   border-color: #187e64;
   color: #187e64;
@@ -145,21 +162,20 @@ img.bg {
   }
 }
 
-div.jumbotron {
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.1) 0%, rgba(22, 22, 22, 0.55) 75%, #161616 100%), url("./img/saloua-intro.jpg");
-
-
+.home {
   padding: 10px;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
+  background: linear-gradient(
+      to bottom,
+      rgba(22, 22, 22, 0.1) 0%,
+      rgba(22, 22, 22, 0.55) 75%,
+      #161616 100%
+    ),
+    url("./img/saloua-intro.jpg") no-repeat scroll center;
   background-size: cover;
 
   font-family: "Montserrat";
   color: white;
 }
-
-
 
 p {
   font-size: 1rem;
@@ -182,8 +198,10 @@ p {
   font-size: 20px;
 }
 .contact-form {
-  background: url("https://images.unsplash.com/photo-1471897488648-5eae4ac6686b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9") no-repeat scroll center;
-  background-size: cover;
+  background-size: 100%;
+  background: url("https://images.unsplash.com/photo-1471897488648-5eae4ac6686b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9")
+    no-repeat scroll center top;
+
   color: white;
 }
 
@@ -193,24 +211,21 @@ p {
 
 .focus-background {
   background-color: #3d472c;
-
 }
 
 .services-background {
-  background-color: #9FACE6;
+  background-color: #9face6;
   background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
 }
 
 .about-background {
-  background-color: #FBDA61;
-  background-image: linear-gradient(45deg, #FBDA61 0%, #FF5ACD 100%);
-
+  background-color: #fbda61;
+  background-image: linear-gradient(45deg, #fbda61 0%, #ff5acd 100%);
 }
 
 .contact-background {
-  background-color: #52ACFF;
-  background-image: linear-gradient(88deg, #52ACFF 25%, #FFE32C 100%);
-
+  background-color: #52acff;
+  background-image: linear-gradient(88deg, #52acff 25%, #ffe32c 100%);
 }
 
 i {
