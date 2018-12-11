@@ -54,7 +54,7 @@ const TestimonialBody = () => {
                   <div className="p-3 col-md-8">
                     <div className="blockquote mb-0">
                       <p>
-                        I have watched Saloua build a thriving, women-only,
+                        I have watched Saloua build a thriving,
                         entrepreneurial community with consistent sell out
                         audiences. The basis of the build is through a main
                         component of building a digital following - email
