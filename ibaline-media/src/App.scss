@@ -5,7 +5,7 @@ $secondary-font: "Mr Dafoe", cursive;
 $tertiary-font: "Open Sans", sans-serif;
 $title-font: "Kristi", sans-serif;
 
-* {
+.btn .btn-primary {
   -webkit-border-radius: 0 !important;
   -moz-border-radius: 0 !important;
   border-radius: 0 !important;
@@ -214,8 +214,9 @@ p {
 }
 
 i {
-  color: grey;
-  background-color: white;
+  color: #dbdbdb;
+
+  background-color: #767676;
   border-radius: 50%;
-  padding: 10px;
+  padding: 15px;
 }

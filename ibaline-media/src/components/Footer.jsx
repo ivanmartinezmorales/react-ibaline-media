@@ -23,79 +23,49 @@ const SocialMediaButtons = () => {
 class Footer extends Component {
   render() {
     return (
-      <section className="py-3">
-        <div className="container">
-          <div className="row d-flex justify-content-center">
-            <div className="col-lg-3 col-3 p-sm-3">
-              <h5>
-                <b>Navigate</b>
-              </h5>
-              <ul className="text-center list-unstyled">
-                <li>
-                  <a href="#">Home</a>
-                </li>
-                <li>
-                  <a href="#">Work With Me</a>
-                </li>
-                <li>
-                  <a href="#">Focus</a>
-                </li>
-                <li>
-                  <a href="#">About</a>
-                </li>
-                <li>
-                  <a href="#">Testimonials</a>
-                </li>
-                <li>
-                  <a href="#">Contact</a>
-                </li>
-              </ul>
-            </div>
+      <section className="py-3" style={{backgroundColor: "#0aab7f"}}>
+        <div className="py-5">
+          <div className="container">
+            <div className="row">
+              <div className="col-md-9">
+                <p className="lead">
+                  Sign up to our newsletter for the latest news
+                </p>
+                <form className="form-inline form-group">
 
-            <div className="col-lg-6 col-md-6 p-3 border">
-              <h5 className="text-center">
-                <b>Keep Up With Us</b>
-              </h5>
-              <div className="row d-flex justify-content-center">
-                <p style={{fontSize: "1.25rem", fontWeight: "bold"}}>LET'S STAY IN TOUCH!</p>
-                <p>Subscribe to get my monthly newsletter sent straight to your inbox with insights, inspiration, and resources.</p>
-                  {/*Below lies the subscription form.*/}
-
-
+                    <input
+                      type="email"
+                      className="form-control"
+                      placeholder="Your e-mail here"
+                    />
+                  <button type="submit" className="btn btn-secondary ml-0">
+                    Subscribe
+                  </button>
+                </form>
               </div>
-              <div className="row mx-5 d-flex justify-content-center">
-                <div className="col-md-8 d-flex align-items-center justify-content-between">
-                  <a href="http://www.facebook.com/salouaibaline">
-                    <i className="d-block fab fa-facebook fa-2x mr-2" />
-                  </a>
-                  <a href="https://www.instagram.com/salouaibaline">
-                    <i className="d-block fab fa-instagram fa-2x mx-2" />
-                  </a>
-                  <a href="https://www.linkedin.com/in/salouaibaline">
-                    <i className="d-block fab fa-linkedin fa-2x mx-2" />
-                  </a>
-                  <a href="https://www.twitter.com/salouaibaline">
-                    <i className="d-block fab fa-twitter fa-2x ml-2" />
-                  </a>
-                </div>
+              <div className="col-4 col-md-1 align-self-center">
+                <a href="https://www.facebook.com/salouaibaline">
+                  <i className="fab fa-facebook fa-2x" />
+                </a>
               </div>
-            </div>
-              <div className="col-lg-3 col-md-3 p-3">
-                <h5>
-                  <b>About</b>
-                </h5>
-                <p className="mb-0">Placeholder text</p>
+              <div className="col-4 col-md-1 align-self-center">
+                <a href="https://www.twitter.com/salouaibaline">
+                  <i className="fab fa-twitter fa-2x" />
+                </a>
+              </div>
+              <div className="col-4 col-md-1 align-self-center">
+                <a href="https://www.instagram.com/salouaibaline">
+                  <i className="fab fa-instagram fa-2x" />
+                </a>
               </div>
             </div>
             <div className="row">
-              <div className="col-md-12 text-center">
-                <p className="mb-0 mt-2">
-                  Ibaline Media <FontAwesomeIcon icon="facebook-square" />
-                </p>
+              <div className="col-md-12 mt-3 text-center text-small">
+                <p>Ibaline Media - Powered by Ivan</p>
               </div>
             </div>
           </div>
-
+        </div>
       </section>
     );
   }
