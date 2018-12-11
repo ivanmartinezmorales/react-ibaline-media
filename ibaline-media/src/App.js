@@ -8,7 +8,7 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import Home from "./pages/Home.jsx";
 // import Focus from "./pages/Focus.jsx";
 // import Services from "./pages/Services.jsx";
-// import About from "./pages/About.jsx";
+import About from "./pages/About.jsx";
 // import Testimonials from "./pages/Testimonials.jsx";
 // import Contact from "./pages/Contact.jsx";
 //
@@ -23,7 +23,7 @@ class App extends Component {
     return (
         <div>
           {/*<Example/>*/}
-            <Home/>
+            {/*<Home/>*/}
             {/*<ColoredLine color={"black"}/>*/}
             {/*<Services/>*/}
             {/*<ColoredLine color={"black"}/>*/}
@@ -31,7 +31,7 @@ class App extends Component {
             {/*<ColoredLine color={"black"}/>*/}
             {/*<Focus/>*/}
             {/*<ColoredLine color={"black"}/>*/}
-            {/*<About/>*/}
+            <About/>
             {/*<ColoredLine color={"black"}/>*/}
             {/*<Testimonials/>*/}
             {/*<ColoredLine color={"black"}/>*/}
