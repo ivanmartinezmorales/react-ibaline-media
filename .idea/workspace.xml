@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dcbb1364-d032-423b-8a22-266b6c090eda" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ibaline-media/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/ibaline-media/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ibaline-media/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/ibaline-media/src/App.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ibaline-media/src/pages/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/ibaline-media/src/pages/Home.jsx" afterDir="false" />
     </list>
@@ -57,11 +55,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/ibaline-media/src/pages/Home.jsx">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="375">
-                  <caret line="90" selection-start-line="90" selection-end-line="90" />
-                  <folding>
-                    <element signature="e#0#26#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="416">
+                  <caret line="26" column="36" lean-forward="true" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
                 </state>
               </provider>
             </entry>
@@ -69,8 +64,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/ibaline-media/src/App.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="298">
-                  <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+                <state relative-caret-position="544">
+                  <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
                 </state>
               </provider>
             </entry>
@@ -125,8 +120,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/ibaline-media/src/App.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="529">
-                  <caret line="40" column="5" selection-start-line="40" selection-start-column="5" selection-end-line="40" selection-end-column="5" />
+                <state relative-caret-position="241">
+                  <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
                   <folding>
                     <element signature="e#0#41#0" expanded="true" />
                   </folding>
@@ -219,8 +214,8 @@
         <option value="$PROJECT_DIR$/ibaline-media/src/components/Footer.jsx" />
         <option value="$PROJECT_DIR$/ibaline-media/server/Server.js" />
         <option value="$PROJECT_DIR$/ibaline-media/src/App.js" />
-        <option value="$PROJECT_DIR$/ibaline-media/src/App.scss" />
         <option value="$PROJECT_DIR$/ibaline-media/src/pages/Home.jsx" />
+        <option value="$PROJECT_DIR$/ibaline-media/src/App.scss" />
       </list>
     </option>
   </component>
@@ -372,11 +367,18 @@
       <option name="project" value="LOCAL" />
       <updated>1544502368049</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Developing Home.jsx">
+      <created>1544506405816</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1544506405816</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73941000" />
+    <option name="totallyTimeSpent" value="74796000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -391,7 +393,7 @@
     <frame x="-1920" y="-280" width="1920" height="1080" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11637704" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.11637704" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -409,6 +411,25 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11637704" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32997987" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3249497" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32897383" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.01793722" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49960285" weight="0.6690141" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50039715" side_tool="true" weight="0.32913166" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -421,7 +442,8 @@
     <MESSAGE value="Continued development of website." />
     <MESSAGE value="Post meeting check in." />
     <MESSAGE value="Completed Footer section | Started backend integration" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed Footer section | Started backend integration" />
+    <MESSAGE value="Developing Home.jsx" />
+    <option name="LAST_COMMIT_MESSAGE" value="Developing Home.jsx" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/ibaline-media/aprs_script.sh" />
@@ -670,11 +692,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ibaline-media/src/pages/Home.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="90" selection-start-line="90" selection-end-line="90" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="416">
+          <caret line="26" column="36" lean-forward="true" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -691,8 +710,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ibaline-media/src/App.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+        <state relative-caret-position="544">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
         </state>
       </provider>
     </entry>

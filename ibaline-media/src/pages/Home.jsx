@@ -7,7 +7,7 @@ import React from "react";
 // TODO: Add container class to everything! You're missing that fool.
 const h3Style = {
   fontSize: "4rem",
-  fontFamily: "Kristin",
+  fontFamily: "Roboto",
   letterSpacing: "2px",
   color: "white"
 };
