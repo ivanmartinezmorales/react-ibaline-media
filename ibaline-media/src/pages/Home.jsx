@@ -63,7 +63,7 @@ const IntroParagraph = () => {
   return (
     <div className={"container"}>
       <div className={"col-md-3"} />
-      <div className="mt-5 px-5 py-5 col-md-6 text-center focus-background text-white mx-lg-5 px-lg-5">
+      <div className="mt-5 px-5 py-5 text-center focus-background text-white mx-lg-5 px-lg-5">
         <p style={pStyle}>
           At Ibaline Media, our primary focus is to{" "}
           <u>educate small businesses</u> & entrepreneurs to use digital

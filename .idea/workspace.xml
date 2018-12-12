@@ -2,10 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dcbb1364-d032-423b-8a22-266b6c090eda" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/react-saloua.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/react-saloua.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ibaline-media/src/pages/About.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/ibaline-media/src/pages/About.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ibaline-media/src/pages/Testimonials.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/ibaline-media/src/pages/Testimonials.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ibaline-media/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/ibaline-media/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ibaline-media/src/App.scss" beforeDir="false" afterPath="$PROJECT_DIR$/ibaline-media/src/App.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ibaline-media/src/pages/Contact.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/ibaline-media/src/pages/Contact.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ibaline-media/src/pages/Home.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/ibaline-media/src/pages/Home.jsx" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,11 +33,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/ibaline-media/src/pages/Testimonials.jsx">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="300">
-                  <caret line="62" column="65" selection-start-line="62" selection-start-column="65" selection-end-line="62" selection-end-column="65" />
+                <state relative-caret-position="474">
+                  <caret line="90" column="38" selection-start-line="90" selection-start-column="38" selection-end-line="90" selection-end-column="38" />
                 </state>
               </provider>
             </entry>
@@ -50,11 +51,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/ibaline-media/src/pages/Home.jsx">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="416">
-                  <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
+                <state relative-caret-position="153">
+                  <caret line="68" column="21" lean-forward="true" selection-start-line="68" selection-start-column="21" selection-end-line="68" selection-end-column="21" />
                 </state>
               </provider>
             </entry>
@@ -71,8 +72,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/ibaline-media/src/pages/Contact.jsx">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="672">
-                  <caret line="42" column="52" selection-start-line="42" selection-start-column="52" selection-end-line="42" selection-end-column="52" />
+                <state relative-caret-position="439">
+                  <caret line="83" column="25" selection-start-line="83" selection-start-column="25" selection-end-line="83" selection-end-column="25" />
                   <folding>
                     <element signature="e#0#41#0" expanded="true" />
                   </folding>
@@ -83,11 +84,12 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/ibaline-media/src/App.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="320">
-                  <caret line="42" selection-start-line="42" selection-end-line="42" />
+                <state relative-caret-position="409">
+                  <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
                   <folding>
                     <element signature="e#0#41#0" expanded="true" />
-                    <element signature="e#683#728#0" expanded="true" />
+                    <element signature="e#141#177#0" expanded="true" />
+                    <element signature="e#400#445#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -109,8 +111,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/ibaline-media/src/App.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="65">
-                  <caret line="10" selection-start-line="10" selection-end-line="10" />
+                <state relative-caret-position="168">
+                  <caret line="56" column="31" selection-start-line="56" selection-start-column="31" selection-end-line="56" selection-end-column="31" />
                   <folding>
                     <element signature="e#0#41#0" expanded="true" />
                   </folding>
@@ -121,8 +123,20 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/ibaline-media/src/App.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-440">
-                  <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+                <state relative-caret-position="189">
+                  <caret line="200" column="21" selection-start-line="200" selection-start-column="21" selection-end-line="200" selection-end-column="21" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/ibaline-media/src/pages/Contact.jsx">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="705">
+                  <caret line="103" column="13" selection-start-line="103" selection-start-column="13" selection-end-line="103" selection-end-column="13" />
+                  <folding>
+                    <element signature="e#0#41#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -189,7 +203,6 @@
         <option value="$PROJECT_DIR$/ibaline-media/src/components/Navbar.jsx" />
         <option value="$PROJECT_DIR$/ibaline-media/src/components/Packages.jsx" />
         <option value="$PROJECT_DIR$/ibaline-media/src/components/Navigation.jsx" />
-        <option value="$PROJECT_DIR$/ibaline-media/src/pages/Contact.jsx" />
         <option value="$PROJECT_DIR$/ibaline-media/src/index.js" />
         <option value="$PROJECT_DIR$/ibaline-media/src/pages/Focus.jsx" />
         <option value="$PROJECT_DIR$/ibaline-media/public/index.html" />
@@ -197,11 +210,12 @@
         <option value="$PROJECT_DIR$/ibaline-media/src/pages/Services.jsx" />
         <option value="$PROJECT_DIR$/ibaline-media/src/components/Footer.jsx" />
         <option value="$PROJECT_DIR$/ibaline-media/server/Server.js" />
-        <option value="$PROJECT_DIR$/ibaline-media/src/pages/Home.jsx" />
-        <option value="$PROJECT_DIR$/ibaline-media/src/App.scss" />
-        <option value="$PROJECT_DIR$/ibaline-media/src/App.js" />
         <option value="$PROJECT_DIR$/ibaline-media/src/pages/About.jsx" />
         <option value="$PROJECT_DIR$/ibaline-media/src/pages/Testimonials.jsx" />
+        <option value="$PROJECT_DIR$/ibaline-media/src/App.js" />
+        <option value="$PROJECT_DIR$/ibaline-media/src/pages/Contact.jsx" />
+        <option value="$PROJECT_DIR$/ibaline-media/src/App.scss" />
+        <option value="$PROJECT_DIR$/ibaline-media/src/pages/Home.jsx" />
       </list>
     </option>
   </component>
@@ -212,10 +226,8 @@
     <auto-save>true</auto-save>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="-1920" />
-    <option name="y" value="-280" />
-    <option name="width" value="1920" />
-    <option name="height" value="1080" />
+    <option name="width" value="1280" />
+    <option name="height" value="800" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -374,11 +386,18 @@
       <option name="project" value="LOCAL" />
       <updated>1544535884440</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Completed changes on About.jsx">
+      <created>1544538265341</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1544538265341</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="77687000" />
+    <option name="totallyTimeSpent" value="82138000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -390,10 +409,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1920" y="-280" width="1920" height="1080" extended-state="0" />
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" weight="0.11637704" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17474186" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -404,7 +423,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32897383" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="8" visible="true" weight="0.34950495" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.48356164" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49960285" weight="0.6690141" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50039715" side_tool="true" weight="0.32913166" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -412,7 +431,7 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11637704" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11596505" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -423,7 +442,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32897383" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.01793722" />
+      <window_info anchor="bottom" id="Version Control" order="8" visible="true" weight="0.48356164" />
       <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49960285" weight="0.6690141" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50039715" side_tool="true" weight="0.32913166" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -445,7 +464,8 @@
     <MESSAGE value="Completed Footer section | Started backend integration" />
     <MESSAGE value="Developing Home.jsx" />
     <MESSAGE value="Rendering About.jsx in order to work on it" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rendering About.jsx in order to work on it" />
+    <MESSAGE value="Completed changes on About.jsx" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed changes on About.jsx" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/ibaline-media/aprs_script.sh" />
@@ -645,40 +665,12 @@
     <entry file="file://$PROJECT_DIR$/ibaline-media/src/img/saloua-intro.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/ibaline-media/src/pages/Home.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="26" column="36" selection-start-line="26" selection-start-column="36" selection-end-line="26" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ibaline-media/server/Server.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="32">
           <caret line="2" column="3" lean-forward="true" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ibaline-media/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-            <element signature="e#683#728#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ibaline-media/src/pages/Contact.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="672">
-          <caret line="42" column="52" selection-start-line="42" selection-start-column="52" selection-end-line="42" selection-end-column="52" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -690,13 +682,6 @@
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ibaline-media/src/App.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-440">
-          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
         </state>
       </provider>
     </entry>
@@ -712,8 +697,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ibaline-media/src/pages/Testimonials.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="62" column="65" selection-start-line="62" selection-start-column="65" selection-end-line="62" selection-end-column="65" />
+        <state relative-caret-position="474">
+          <caret line="90" column="38" selection-start-line="90" selection-start-column="38" selection-end-line="90" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ibaline-media/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="29" column="22" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#141#177#0" expanded="true" />
+            <element signature="e#400#445#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ibaline-media/src/App.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="200" column="21" selection-start-line="200" selection-start-column="21" selection-end-line="200" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ibaline-media/src/pages/Contact.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="83" column="25" selection-start-line="83" selection-start-column="25" selection-end-line="83" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ibaline-media/src/pages/Home.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="68" column="21" lean-forward="true" selection-start-line="68" selection-start-column="21" selection-end-line="68" selection-end-column="21" />
         </state>
       </provider>
     </entry>
